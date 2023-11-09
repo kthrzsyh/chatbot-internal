@@ -86,7 +86,9 @@ const Chat = () => {
     }
 
     const getUserInfoList = async () => {
+        
         setShowAuthMessage(false);
+        
     }
 
     const makeApiRequestWithoutCosmosDB = async (question: string, conversationId?: string) => {
